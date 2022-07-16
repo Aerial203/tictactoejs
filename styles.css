@@ -5,18 +5,36 @@
 :root {
     --height: 400px;
     --width: 400px;
-    --background: #F9F9F9;
-    --color: #92B4EC;
+    --background: #d2dbdc;
+    --color: #508ABB;
+    --winColor: cyan;
+    --fontColor: #F6F6F6;
 }
 
 body {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: var(--background);
     height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+}
+
+.heading, .sub-heading {
+    text-align: center;
+    padding: 5px;
+    color: var(--color);
+}
+
+.heading {
+    font-size: 70px;
+    margin-top: 70px;
+}
+
+.sub-heading {
+    margin-bottom: 7px;
 }
 
 .container {
@@ -34,6 +52,17 @@ body {
     width: calc(var(--width) / 3);
     height: calc(var(--height) / 3);    
     border: 1px solid var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.symbol {
+    color: var(--fontColor);
+    width: calc(var(--width) / 4);
+    height: calc(var(--height) / 4);
+    text-align: center;
+    font-size: 90px;
 }
 
 
