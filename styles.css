@@ -3,8 +3,8 @@
 }
 
 :root {
-    --height: 400px;
-    --width: 400px;
+    --containerHeight: 400px;
+    --containerWidth: 400px;
     --background: #d2dbdc;
     --color: #508ABB;
     --winColor: cyan;
@@ -41,6 +41,7 @@ body {
     background-color: var(--background);
     width: var(--height);
     height: var(--width);
+    box-shadow: 0px 10px 5px 0px #1B2430;
 }
 
 .row, .row1, .row2 {
@@ -49,8 +50,8 @@ body {
 
 .zero, .one, .two, .three, .four, .five, .six, .seven, .eight {
     background-color: var(--color);
-    width: calc(var(--width) / 3);
-    height: calc(var(--height) / 3);    
+    width: calc(var(--containerWidth) / 3);
+    height: calc(var(--containerHeight) / 3);    
     border: 1px solid var(--background);
     display: flex;
     align-items: center;
