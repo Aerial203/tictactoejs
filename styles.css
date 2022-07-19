@@ -41,14 +41,13 @@ body {
     background-color: var(--background);
     width: var(--height);
     height: var(--width);
-    box-shadow: 0px 10px 5px 0px #1B2430;
 }
 
 .row, .row1, .row2 {
     display: flex;
 }
 
-.zero, .one, .two, .three, .four, .five, .six, .seven, .eight {
+.symbol {
     background-color: var(--color);
     width: calc(var(--containerWidth) / 3);
     height: calc(var(--containerHeight) / 3);    
@@ -58,7 +57,7 @@ body {
     justify-content: center;
 }
 
-.symbol {
+.inputText {
     color: var(--fontColor);
     width: calc(var(--width) / 4);
     height: calc(var(--height) / 4);
