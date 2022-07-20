@@ -67,7 +67,7 @@ body {
 }
 
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 500px) {
     .container {
         width: 80%;
     }
