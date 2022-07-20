@@ -71,4 +71,10 @@ body {
     .container {
         width: 70%;
     }
+    .heading {
+        font-size: 50px;
+    }
+    .symbol {
+        height: calc(300px / 3); 
+    }
 }
