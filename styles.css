@@ -67,14 +67,21 @@ body {
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 450px){
     .container {
         width: 70%;
     }
     .heading {
-        font-size: 50px;
+        font-size: 45px;
+    }
+    .sub-heading {
+        font-size: 20px;
+        font-weight: lighter;
     }
     .symbol {
-        height: calc(300px / 3); 
+        height: 90px; 
+    }
+    .inputText {
+        font-size: 70px;
     }
 }
